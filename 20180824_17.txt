@@ -1,0 +1,93 @@
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ init ] ==========Device Info==========
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ androidSDK ] 27
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneBoard ] ysl
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneBrand ] xiaomi
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneCPU_ABT ] armeabi-v7a
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneDevice ] ysl
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneDisplay ] OPM1.171019.011
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneFingerprint ] xiaomi/ysl/ysl:8.1.0/OPM1.171019.011/V9.5.9.0.OEFMIFA:user/release-keys
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneHost ] mi-server
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneID ] OPM1.171019.011
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneManufacturer ] Xiaomi
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneModel ] Redmi Y2
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneVersion ] 8.1.0
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneProduct ] ysl
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneTags ] release-keys
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneTime ] Thu May 10 19:14:30 GMT+05:30 2018
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneType ] user
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ phoneUser ] builder
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ screenDensity ] 1.7
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ screenScaledDensity ] 1.955
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ screenWidthPixels ] 720
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ wcreenHeightPixels ] 1358
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ screenStatusBarHeight ] 41
+2018-08-24 17:29:10	DEBUG	DeviceUtils	[ init ] ===============================
+2018-08-24 17:29:10	DEBUG	ThemeUtils	[ createPackageContext ] isTheme= false   mThemeId= com.miui.video.theme.01
+2018-08-24 17:29:10	DEBUG	mivideo	[ AppConfig ] initAppChannel success channel = miphone
+2018-08-24 17:29:10	DEBUG	mivideo	[ AppConfig ] initAppPlatform Fail platform = 
+2018-08-24 17:29:10	DEBUG	mivideo	[ UIStatistics ] miphone
+2018-08-24 17:29:10	DEBUG	DataUtils	[ addUI ] ui= com.miui.video.localvideoplayer.GalleryPlayerActivity@3e92eba
+2018-08-24 17:29:10	DEBUG	mivideo	[ MiuiUtils ] called activity Name:com.miui.video.localvideoplayer.GalleryPlayerActivity calling package Name:com.miui.gallery
+2018-08-24 17:29:10	DEBUG	mivideo	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.GalleryPlayerActivity@3e92eba
+2018-08-24 17:29:10	DEBUG	mivideo	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.GalleryPlayerActivity@3e92eba
+2018-08-24 17:29:10	DEBUG	mivideo	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2018-08-24 17:29:10	DEBUG	mivideo	[ MiuiUtils ] called activity Name:com.miui.video.localvideoplayer.GalleryPlayerActivity calling package Name:com.miui.gallery
+2018-08-24 17:29:10	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2018-08-24 17:29:10	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2018-08-24 17:29:10	DEBUG	mivideo	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:activity_resume_start
+2018-08-24 17:29:10	DEBUG	mivideo	[ StatisticsPresenter ] onVideoResume
+2018-08-24 17:29:11	DEBUG	mivideo	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:play_start
+2018-08-24 17:29:11	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@2d902fb
+tableName=history
+whereClause=md5_path =?
+whereArgs=c05c9e85bf4f079ea13693eeb52454dd
+orderBy=updateTime DESC
+
+2018-08-24 17:29:11	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@e70ef18
+tableName=history
+whereClause=md5_path =?
+whereArgs=c05c9e85bf4f079ea13693eeb52454dd
+orderBy=updateTime DESC
+
+2018-08-24 17:29:11	DEBUG	CLVDatabase	[ insertOrUpdate ] id=25	com.miui.video.framework.db.TableEntity@c5ed673
+tableName=history
+whereClause=path='/storage/emulated/0/WhatsApp/Media/WhatsApp Video/VID-20180803-WA0000.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:c05c9e85bf4f079ea13693eeb52454dd
+values=updateTime:1535111951280
+values=onlineSubHash:null
+values=extraSubtitlePath:null
+values=title:VID-20180803-WA0000.mp4
+values=playProgress:0
+values=imgUrl:null
+values=duration:0
+values=path:/storage/emulated/0/WhatsApp/Media/WhatsApp Video/VID-20180803-WA0000.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:0
+values=onlineSubLocalPath:null
+
+2018-08-24 17:29:11	DEBUG	mivideo	[ HistorySPHelper ] SPHistoryEntry{path='/storage/emulated/0/WhatsApp/Media/WhatsApp Video/VID-20180803-WA0000.mp4', offset=0, saveTime=1535111951296}
+2018-08-24 17:29:13	DEBUG	mivideo	[ VideoViewPresenter ] VideoViewPresenter#pause
+2018-08-24 17:29:13	DEBUG	mivideo	[ ThreadPoolManager ] initThreadPool index　0
+2018-08-24 17:29:13	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@f30c089
+tableName=history
+whereClause=md5_path =?
+whereArgs=c05c9e85bf4f079ea13693eeb52454dd
+orderBy=updateTime DESC
+
+2018-08-24 17:29:13	DEBUG	DBUtils	[ moveToNext ] size=1	com.miui.video.corelocalvideo.entity.VideoEntity@95bdc45
+uri=null
+mediaId=0
+hideId=-1
+id=25
+title=VID-20180803-WA0000.mp4
+imgUrl=
+path=/storage/emulated/0/WhatsApp/Media/WhatsApp Video/VID-20180803-WA0000.mp4
+size=0.00B
+updateTime=2018年08月24日 17时29分11秒
+
+2018-08-24 17:29:13	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
